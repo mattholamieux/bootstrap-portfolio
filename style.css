@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'myFont';
+    src: url('assets/fonts/BebasNeueRegular.ttf');
+}
+
+@font-face {
+    font-family: 'myFontBold';
+    src: url('assets/fonts/BebasNeueBold.ttf');
+}
+
+@font-face {
+    font-family: 'myFontAlt';
+    src: url('assets/fonts/BebasNeueBook.ttf');
+}
+
+.container-fluid {
+    font-family: 'myFont';
+}
+
+header {
+    border-top: solid 5px #186774;
+    background-color: rgba(105, 106, 110, 0.3);
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+
+.heroText {
+    /* font-family: myFontBold; */
+    font-size: 5.0rem;
+}
+
+.hero {
+    padding-top: 50vh;
+    padding-bottom: 50vh;
+    background-size: cover;
+    background-position: center;
+    /* margin-bottom: 75px; */
+    background-image: url('assets/hydragif.gif');
+}
+
+.navigation {
+    padding-top: 100px;
+}
+
+.navigation h1 {
+    border-bottom: black 1px solid;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    /* max-height: 175px; */
+}
+
+.about {
+    background-color: #186774;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+}
+
+.about h1 {
+    border-bottom: white 1px solid;
+}
+
+.aboutText {
+    font-family: 'Lucida Sans';
+    font-size: 28px;
+    line-height: 1.8;
+    /* margin-right: 130px;
+    margin-left: 130px; */
+}
+
+.contact {
+    padding-bottom: 50vh;
+}
+
+.contact h1 {
+    border-bottom: black 1px solid;
+}
+
+.myNav a {
+    text-decoration: none;
+    font-family: myFontBold;
+    color: #186774;
+    font-size: 24px;
+}
+
+.selected {
+    border-bottom: solid 3px #186774;
+}
+
+.photo {
+    display: block;
+    width: 25%;
+    position: relative;
+    height: 300px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+;
